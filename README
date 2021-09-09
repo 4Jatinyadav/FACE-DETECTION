@@ -1,0 +1,18 @@
+Before running this project, we should install the necessary softwares into our computer. The following 
+packages are needed:
+ Numpy: to deal with arrays
+ OpenCV: to work with Computer Vision library. 
+ Haarcascade front face recognition xml file: to detect front faces. 
+To install numpy
+To install numpy package, first go to DOS prompt, and type the following command:
+C:\> pip install numpy
+To install opencv
+To install opencv package, go to DOS prompt, and type the following command:
+C:\> pip install opencv-contrib-python
+Note: If you have already installed opencv-python library, then you have to uninstall it first as:
+C:\> pip uninstall opencv-python
+Then install opencv-contrib-python as shown above. 
+To install haarcascade file
+Go to the following URL and download the file: haarcascade_frontalface_default.xml into your system. 
+https://github.com/opencv/opencv/tree/master/data/haarcascades
+Note: This file can be seen in the folder: HaarCascade in our project files.
